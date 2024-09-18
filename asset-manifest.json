@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/cookie-policy-demo/static/css/main.8a418433.chunk.css",
+    "main.js": "/cookie-policy-demo/static/js/main.67b2b6a2.chunk.js",
+    "main.js.map": "/cookie-policy-demo/static/js/main.67b2b6a2.chunk.js.map",
+    "runtime~main.js": "/cookie-policy-demo/static/js/runtime~main.a462b26f.js",
+    "runtime~main.js.map": "/cookie-policy-demo/static/js/runtime~main.a462b26f.js.map",
+    "static/css/2.4864c097.chunk.css": "/cookie-policy-demo/static/css/2.4864c097.chunk.css",
+    "static/js/2.76aa52f1.chunk.js": "/cookie-policy-demo/static/js/2.76aa52f1.chunk.js",
+    "static/js/2.76aa52f1.chunk.js.map": "/cookie-policy-demo/static/js/2.76aa52f1.chunk.js.map",
+    "static/js/3.fc5cbf83.chunk.js": "/cookie-policy-demo/static/js/3.fc5cbf83.chunk.js",
+    "static/js/3.fc5cbf83.chunk.js.map": "/cookie-policy-demo/static/js/3.fc5cbf83.chunk.js.map",
+    "index.html": "/cookie-policy-demo/index.html",
+    "precache-manifest.8dc0fa88cc0d05cfe958cd630cde12e0.js": "/cookie-policy-demo/precache-manifest.8dc0fa88cc0d05cfe958cd630cde12e0.js",
+    "service-worker.js": "/cookie-policy-demo/service-worker.js",
+    "static/css/2.4864c097.chunk.css.map": "/cookie-policy-demo/static/css/2.4864c097.chunk.css.map",
+    "static/css/main.8a418433.chunk.css.map": "/cookie-policy-demo/static/css/main.8a418433.chunk.css.map",
+    "static/media/61fc00073cf0e70004222069.png": "/cookie-policy-demo/static/media/61fc00073cf0e70004222069.13f6bac5.png",
+    "static/media/Arrow_Up.svg": "/cookie-policy-demo/static/media/Arrow_Up.3290338e.svg",
+    "static/media/App.css": "/cookie-policy-demo/static/media/Dash.c7dc1e84.PNG",
+    "static/media/Priavcy-Notice-Hindi (1).pdf": "/cookie-policy-demo/static/media/Priavcy-Notice-Hindi (1).40ec3f11.pdf",
+    "static/media/Privacy Notice_SBI copy.pdf": "/cookie-policy-demo/static/media/Privacy Notice_SBI copy.6f33ace0.pdf",
+    "static/media/font-awesome.min.css": "/cookie-policy-demo/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
