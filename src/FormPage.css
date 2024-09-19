@@ -5,6 +5,7 @@
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
+  position: relative; /* Add relative positioning */
 }
 
 .form-page h1, 
@@ -41,7 +42,8 @@
   border-radius: 4px;
 }
 
-.form-page button {
+/* Save button remains styled with blue background and white text */
+.form-page button[type="submit"] {
   padding: 10px 15px;
   background-color: #007bff;
   color: white;
@@ -50,8 +52,24 @@
   cursor: pointer;
 }
 
-.form-page button:hover {
+.form-page button[type="submit"]:hover {
   background-color: #0056b3;
+}
+
+/* Translate Hindi button has its own style, black text and no background */
+.translate-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: transparent; /* No background */
+  border: none;
+  color: black; /* Black text */
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.translate-button:hover {
+  color: #0056b3; /* Changes color on hover */
 }
 
 /* Make the form responsive */
@@ -66,6 +84,10 @@
   }
 
   .form-page label {
+    font-size: 0.9em;
+  }
+
+  .translate-button {
     font-size: 0.9em;
   }
 }
