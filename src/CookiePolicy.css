@@ -88,9 +88,7 @@
     cursor: pointer;
   }
   
-  .close-button:hover {
-    color: #000;
-  }
+
   
   @media (max-width: 768px) {
     .cookie-policy {

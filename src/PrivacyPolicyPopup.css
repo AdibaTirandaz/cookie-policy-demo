@@ -29,16 +29,12 @@
     top: 15px;
     right: 15px;
     background-color: transparent;
-    color: #007bff;
     /* Blue for the 'X' button */
     border: none;
     font-size: 20px;
     cursor: pointer;
 }
 
-.close-button:hover {
-    color: #0056b3;
-}
 
 .adjust-cookies-button {
     background-color: #28a745;

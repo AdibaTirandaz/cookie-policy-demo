@@ -1,0 +1,71 @@
+.form-page .form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-page h1, 
+.form-page p {
+  text-align: left;
+  color: #333;
+}
+
+.form-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-page .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-page label {
+  margin-left: 10px;
+  color: #333;
+}
+
+.form-page input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.form-page input[type="text"], 
+.form-page input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-page button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-page button:hover {
+  background-color: #0056b3;
+}
+
+/* Make the form responsive */
+@media (max-width: 768px) {
+  .form-page .form-container {
+    padding: 10px;
+  }
+
+  .form-page h1, 
+  .form-page p {
+    font-size: 1.1em;
+  }
+
+  .form-page label {
+    font-size: 0.9em;
+  }
+}
