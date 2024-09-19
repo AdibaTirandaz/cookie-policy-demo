@@ -7,8 +7,6 @@ import PrivacyPolicyPDF from './PrivacyPolicyPDF'; // English PDF
 import PrivacyPolicyPDFHindi from './PrivacyPolicyPDFHindi'; // Hindi PDF
 import LanguageSelection from './LanguageSelection'; // Import Language Selection Component
 import 'font-awesome/css/font-awesome.min.css';
-import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Use HashRouter instead of BrowserRouter
-import FormPage from './FormPage'; // Import Form Page
 
 function App() {
   const [showCustomizePopup, setShowCustomizePopup] = useState(false);
@@ -57,62 +55,49 @@ function App() {
   };
 
   return (
-    <Router>
-      <div className="App">
-        <Routes>
-          {/* Define the /form route */}
-          <Route path="/form" element={<FormPage />} />
-          
-          {/* Define the default route */}
-          <Route 
-            path="/" 
-            element={
-              <div className="background-container">
-                {showCookieBanner && (
-                  <CookiePolicy
-                    handleSettings={handleSettings}
-                    handleOpenPrivacyPolicy={openPrivacyPolicyPopup} // Opens the PrivacyPolicyPopup on clicking Cookie Policy
-                  />
-                )}
-                {showPrivacyPopup && (
-                  <PrivacyPolicyPopup 
-                    onClose={handleClosePopup} 
-                    onAdjustCookies={handleSettings} 
-                  />
-                )}
-                {showCustomizePopup && (
-                  <CustomizeCookiesPopup
-                    onClose={handleClosePopup}
-                    handleOpenPrivacyPolicy={openPrivacyPolicyPopup} // Open PrivacyPolicyPopup here
-                  />
-                )}
-                {/* English PDF Popup */}
-                {showPDFPopup && (
-                  <PrivacyPolicyPDF onClose={handleClosePopup} />
-                )}
-                {/* Hindi PDF Popup */}
-                {showPDFPopupHindi && (
-                  <PrivacyPolicyPDFHindi onClose={handleClosePopup} />
-                )}
-                {/* Language Selection Popup */}
-                {showLanguagePopup && (
-                  <LanguageSelection
-                    onClose={handleClosePopup}
-                    openPrivacyPolicyPDF={openPrivacyPolicyPDF} // Pass English PDF opening function
-                    openPrivacyPolicyPDFHindi={openPrivacyPolicyPDFHindi} // Pass Hindi PDF opening function
-                  />
-                )}
-                <div className="navbar">
-                  <button className="privacy-button" onClick={openLanguagePopup}>
-                    Privacy Policy
-                  </button>
-                </div>
-              </div>
-            } 
+    <div className="App">
+      <div className="background-container">
+        {showCookieBanner && (
+         <CookiePolicy
+           handleSettings={handleSettings}
+           handleOpenPrivacyPolicy={openPrivacyPolicyPopup} // Opens the PrivacyPolicyPopup on clicking Cookie Policy
+         />
+        )}
+        {showPrivacyPopup && (
+          <PrivacyPolicyPopup 
+            onClose={handleClosePopup} 
+            onAdjustCookies={handleSettings} 
           />
-        </Routes>
+        )}
+        {showCustomizePopup && (
+          <CustomizeCookiesPopup
+            onClose={handleClosePopup}
+            handleOpenPrivacyPolicy={openPrivacyPolicyPopup} // Open PrivacyPolicyPopup here
+          />
+        )}
+        {/* English PDF Popup */}
+        {showPDFPopup && (
+          <PrivacyPolicyPDF onClose={handleClosePopup} />
+        )}
+        {/* Hindi PDF Popup */}
+        {showPDFPopupHindi && (
+          <PrivacyPolicyPDFHindi onClose={handleClosePopup} />
+        )}
+        {/* Language Selection Popup */}
+        {showLanguagePopup && (
+          <LanguageSelection
+            onClose={handleClosePopup}
+            openPrivacyPolicyPDF={openPrivacyPolicyPDF} // Pass English PDF opening function
+            openPrivacyPolicyPDFHindi={openPrivacyPolicyPDFHindi} // Pass Hindi PDF opening function
+          />
+        )}
+        <div className="navbar">
+          <button className="privacy-button" onClick={openLanguagePopup}>
+            Privacy Policy
+          </button>
+        </div>
       </div>
-    </Router>
+    </div>
   );
 }
 
