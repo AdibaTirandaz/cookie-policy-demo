@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8cfba0035cb40b3251988bf11c75fab",
+    "revision": "fc367eead815ad1c7eb45b3f07e2e991",
     "url": "/cookie-policy-demo/index.html"
   },
   {
-    "revision": "d8afaabdded5b30d5b4d",
+    "revision": "ee4742fd0742c9afca4b",
     "url": "/cookie-policy-demo/static/css/2.4864c097.chunk.css"
   },
   {
-    "revision": "1e5a1c332d1b57b0267b",
+    "revision": "dfd5ecf8a73a06663a41",
     "url": "/cookie-policy-demo/static/css/main.a2538294.chunk.css"
   },
   {
-    "revision": "d8afaabdded5b30d5b4d",
-    "url": "/cookie-policy-demo/static/js/2.b653892f.chunk.js"
+    "revision": "ee4742fd0742c9afca4b",
+    "url": "/cookie-policy-demo/static/js/2.55386283.chunk.js"
   },
   {
     "revision": "c063b2817f0eabb20e4f",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cookie-policy-demo/static/js/5.d1c1cf4e.chunk.js"
   },
   {
-    "revision": "1e5a1c332d1b57b0267b",
-    "url": "/cookie-policy-demo/static/js/main.b83c89da.chunk.js"
+    "revision": "dfd5ecf8a73a06663a41",
+    "url": "/cookie-policy-demo/static/js/main.928ce0ba.chunk.js"
   },
   {
     "revision": "8a60aff2bc749fd29ebf",
