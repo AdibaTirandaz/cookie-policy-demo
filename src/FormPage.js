@@ -51,8 +51,8 @@ function FormPage() {
   return (
     <div className="form-page" id="form-page"> {/* Unique class for scoping */}
       <div className="form-container">
-        <h1>Dear Mr. Ravi Yella</h1>
-        <p>Email ID – Ravi@gmail.com</p>
+        <h1>Dear Ms. Pragati Bhargava</h1>
+        <p>Email ID – pragati@gmail.com</p>
         <form onSubmit={handleSubmit}>
           <p>Please tick the boxes to provide your consent to State Bank of India (SBI) for the respective purposes:</p>
           

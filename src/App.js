@@ -104,7 +104,7 @@ function App() {
                 )}
                 <div className="navbar">
                   <button className="privacy-button" onClick={openLanguagePopup}>
-                    Privacy Policy
+                    Privacy Notice
                   </button>
                 </div>
               </div>
