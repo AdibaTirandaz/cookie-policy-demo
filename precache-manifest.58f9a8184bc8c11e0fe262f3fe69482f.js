@@ -1,31 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8812c1e6625913758102331f9f38efb7",
+    "revision": "b8cfba0035cb40b3251988bf11c75fab",
     "url": "/cookie-policy-demo/index.html"
   },
   {
-    "revision": "37d6532fc5fd3eaa7096",
+    "revision": "d8afaabdded5b30d5b4d",
     "url": "/cookie-policy-demo/static/css/2.4864c097.chunk.css"
   },
   {
-    "revision": "7453757b88279bf5b7f4",
-    "url": "/cookie-policy-demo/static/css/main.8a418433.chunk.css"
+    "revision": "1e5a1c332d1b57b0267b",
+    "url": "/cookie-policy-demo/static/css/main.a2538294.chunk.css"
   },
   {
-    "revision": "37d6532fc5fd3eaa7096",
-    "url": "/cookie-policy-demo/static/js/2.76aa52f1.chunk.js"
+    "revision": "d8afaabdded5b30d5b4d",
+    "url": "/cookie-policy-demo/static/js/2.b653892f.chunk.js"
   },
   {
-    "revision": "2c10491364e9bdf48063",
-    "url": "/cookie-policy-demo/static/js/3.fc5cbf83.chunk.js"
+    "revision": "c063b2817f0eabb20e4f",
+    "url": "/cookie-policy-demo/static/js/3.25953878.chunk.js"
   },
   {
-    "revision": "7453757b88279bf5b7f4",
-    "url": "/cookie-policy-demo/static/js/main.67b2b6a2.chunk.js"
+    "revision": "32daa6c491c92e7773b5",
+    "url": "/cookie-policy-demo/static/js/4.46b8cc60.chunk.js"
   },
   {
-    "revision": "f48d1a484f454bce856a",
-    "url": "/cookie-policy-demo/static/js/runtime~main.a462b26f.js"
+    "revision": "603917bf187ebd2d2a36",
+    "url": "/cookie-policy-demo/static/js/5.d1c1cf4e.chunk.js"
+  },
+  {
+    "revision": "1e5a1c332d1b57b0267b",
+    "url": "/cookie-policy-demo/static/js/main.b83c89da.chunk.js"
+  },
+  {
+    "revision": "8a60aff2bc749fd29ebf",
+    "url": "/cookie-policy-demo/static/js/runtime~main.59c39863.js"
   },
   {
     "revision": "13f6bac53033dd05f1445cf526972f30",
