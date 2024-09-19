@@ -58,7 +58,7 @@ function FormPage() {
       <div className="form-container">
         {/* Hindi button inside the form, top-right corner */}
         <button className="translate-button" onClick={toggleLanguage}>
-          {isHindi ? 'Translate to English' : 'Translate हिन्दी'}
+          {isHindi ? 'Translate to English' : 'Translate to हिन्दी'}
         </button>
 
         {isHindi ? (
