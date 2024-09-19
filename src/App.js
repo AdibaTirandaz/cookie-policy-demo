@@ -7,7 +7,7 @@ import PrivacyPolicyPDF from './PrivacyPolicyPDF'; // English PDF
 import PrivacyPolicyPDFHindi from './PrivacyPolicyPDFHindi'; // Hindi PDF
 import LanguageSelection from './LanguageSelection'; // Import Language Selection Component
 import 'font-awesome/css/font-awesome.min.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Use HashRouter instead of BrowserRouter
 import FormPage from './FormPage'; // Import Form Page
 
 function App() {
