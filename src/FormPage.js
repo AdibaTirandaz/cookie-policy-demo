@@ -174,7 +174,7 @@ function FormPage() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="signature">हस्ताक्ि:</label>
+                <label htmlFor="signature">हस्ताक्षर:</label>
                 <input
                   type="text"
                   id="signature"
@@ -196,7 +196,7 @@ function FormPage() {
               </div>
 
               <div className="form-group">
-                <label htmlFor="date">तािीख:</label>
+                <label htmlFor="date">तारीख:</label>
                 <input
                   type="date"
                   id="date"
