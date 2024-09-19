@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fc367eead815ad1c7eb45b3f07e2e991",
+    "revision": "fbeb9e5b4b8cce4fd0d2ab360e253687",
     "url": "/cookie-policy-demo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cookie-policy-demo/static/css/2.4864c097.chunk.css"
   },
   {
-    "revision": "dfd5ecf8a73a06663a41",
+    "revision": "54b984351079f1e0a748",
     "url": "/cookie-policy-demo/static/css/main.a2538294.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cookie-policy-demo/static/js/5.d1c1cf4e.chunk.js"
   },
   {
-    "revision": "dfd5ecf8a73a06663a41",
-    "url": "/cookie-policy-demo/static/js/main.928ce0ba.chunk.js"
+    "revision": "54b984351079f1e0a748",
+    "url": "/cookie-policy-demo/static/js/main.9c6e8ed7.chunk.js"
   },
   {
     "revision": "8a60aff2bc749fd29ebf",
