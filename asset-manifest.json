@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/cookie-policy-demo/static/css/main.25b28998.chunk.css",
-    "main.js": "/cookie-policy-demo/static/js/main.9837b686.chunk.js",
-    "main.js.map": "/cookie-policy-demo/static/js/main.9837b686.chunk.js.map",
+    "main.js": "/cookie-policy-demo/static/js/main.6c451660.chunk.js",
+    "main.js.map": "/cookie-policy-demo/static/js/main.6c451660.chunk.js.map",
     "runtime~main.js": "/cookie-policy-demo/static/js/runtime~main.59c39863.js",
     "runtime~main.js.map": "/cookie-policy-demo/static/js/runtime~main.59c39863.js.map",
     "static/css/2.4864c097.chunk.css": "/cookie-policy-demo/static/css/2.4864c097.chunk.css",
@@ -15,7 +15,7 @@
     "static/js/5.d1c1cf4e.chunk.js": "/cookie-policy-demo/static/js/5.d1c1cf4e.chunk.js",
     "static/js/5.d1c1cf4e.chunk.js.map": "/cookie-policy-demo/static/js/5.d1c1cf4e.chunk.js.map",
     "index.html": "/cookie-policy-demo/index.html",
-    "precache-manifest.7644f6a9a2e626d4691a79f8452c3004.js": "/cookie-policy-demo/precache-manifest.7644f6a9a2e626d4691a79f8452c3004.js",
+    "precache-manifest.db5cc70eb225167a52cc985f99820383.js": "/cookie-policy-demo/precache-manifest.db5cc70eb225167a52cc985f99820383.js",
     "service-worker.js": "/cookie-policy-demo/service-worker.js",
     "static/css/2.4864c097.chunk.css.map": "/cookie-policy-demo/static/css/2.4864c097.chunk.css.map",
     "static/css/main.25b28998.chunk.css.map": "/cookie-policy-demo/static/css/main.25b28998.chunk.css.map",
